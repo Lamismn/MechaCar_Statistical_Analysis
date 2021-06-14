@@ -15,4 +15,6 @@ lot_summary <- SuspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean
 PSI <- SuspensionCoil[3]
 t.test(PSI, alternative = "two.sided", mu = 1500)
 # Perform T test on each subsets of total population
-
+t.test(subset(SuspensionCoil$PSI, SuspensionCoil$Manufacturing_Lot == "Lot1"), SuspensionCoil$PSI)
+t.test(subset(SuspensionCoil$PSI, SuspensionCoil$Manufacturing_Lot == "Lot2"), SuspensionCoil$PSI)
+t.test(subset(SuspensionCoil$PSI, SuspensionCoil$Manufacturing_Lot == "Lot3"), SuspensionCoil$PSI)
