@@ -43,5 +43,26 @@ And the statistics for each lot separated is as follows:
    3. For Lot 3, the mean is 1496.13, the Variance is 170.2, which is higher than the specified maximum of 100.
  4. This output means that Lot 3 had a problem in manufacturing & does not pass the requirements of design.
  
+ ## Tests on Suspension coils
  
+ The output T test result for the population is a one sample test & showed the following:
+ 
+ <img width="468" alt="Del3_1SampleTTest" src="https://user-images.githubusercontent.com/79733383/121838713-75ec7400-cca6-11eb-9d7b-4831a26d2947.PNG">
 
+The output for the three lots as subsets & comparing them to the total population is as follows:
+
+Lot 1:
+
+<img width="586" alt="Del3_Lot1" src="https://user-images.githubusercontent.com/79733383/121838771-93214280-cca6-11eb-9f5a-8755272b2715.PNG">
+
+Lot 2:
+
+<img width="593" alt="Del3_Lot2" src="https://user-images.githubusercontent.com/79733383/121838866-d11e6680-cca6-11eb-9a9d-67b6a6bb6b45.PNG">
+
+Lot 3:
+
+<img width="597" alt="Del3_Lot3" src="https://user-images.githubusercontent.com/79733383/121838879-dbd8fb80-cca6-11eb-8a81-682b874c5c41.PNG">
+
+These images show that the p value for the whole population is 0.0602, & for lots 1 & 2, the p_values are very close to this value (0.066 & 0.0602), whereas for Lot 3, the p_value 0.1818.
+
+These tests confirm the result of our statistical summaries that showed that Lot 3 had a manufacturing problem.
