@@ -14,3 +14,12 @@ The summary statistics output was as follows:
 
 <img width="569" alt="Del1_Summary" src="https://user-images.githubusercontent.com/79733383/121836525-9bc34a00-cca1-11eb-9354-bf481c78ed40.PNG">
 
+### Results
+
+1. The variables/ coefficients that that have a non random variance effect on the mpg according to the output are:
+   1. Intercept
+   2. Vehicle_length
+   3. Ground_clearance
+
+2. The slope of this linear model is not considered zero because the p-value = 5.35e-11 which is less than the standard 0.05 reference
+3. This model predicts the mpg with an accuracy of 71.49% because the R-squared is 0.7149
