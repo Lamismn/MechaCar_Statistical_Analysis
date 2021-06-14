@@ -22,4 +22,7 @@ The summary statistics output was as follows:
    3. Ground_clearance
 
 2. The slope of this linear model is not considered zero because the p-value = 5.35e-11 which is less than the standard 0.05 reference
-3. This model predicts the mpg with an accuracy of 71.49% because the R-squared is 0.7149
+3. This model predicts the mpg with an accuracy of 71.49% because the R-squared is 0.7149, this means that this model can be an accurate representation of about 71% of the dataset
+
+## Summary statistics on suspension coils
+
