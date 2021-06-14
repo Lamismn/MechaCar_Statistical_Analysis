@@ -66,3 +66,19 @@ Lot 3:
 These images show that the p value for the whole population is 0.0602, & for lots 1 & 2, the p_values are very close to this value (0.066 & 0.0602), whereas for Lot 3, the p_value 0.1818.
 
 These tests confirm the result of our statistical summaries that showed that Lot 3 had a manufacturing problem.
+
+## Study design MechaCar vs competition
+
+To be able to test MechaCar performance Vs the competition, we will need to compare the data from vehicles on different metrics under the same circumstances (using third party testing is always preferred)
+
+Some of the metrics that can be used are as follows:
+1. Miles per gallon 
+2. Price
+3. acceleration (0 to 100)
+4. Horse power & torque
+
+The null hypothesis for the testing would be that Mechacar performs as well as (or it could be higher) than the competition, the allternative hypothesis would be that Mechacar performs less than the competition
+
+To perform this comparison we would perform a Welch two sample test for both populations to determine the difference
+
+The data needed for these tests would be different values for each metric from different vehicles from each type (the data collected should be always at the same circumstances, such as temperature, road conditions, etc. )
